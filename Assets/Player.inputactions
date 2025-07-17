@@ -7,7 +7,7 @@
             "actions": [
                 {
                     "name": "Move",
-                    "type": "Value",
+                    "type": "PassThrough",
                     "id": "c8841b66-340b-4862-bda2-531bb321c7a4",
                     "expectedControlType": "Vector2",
                     "processors": "",
@@ -17,7 +17,7 @@
             ],
             "bindings": [
                 {
-                    "name": "Move",
+                    "name": "WASD",
                     "id": "b97e169b-66c1-4677-9f0d-bf06fa8a365f",
                     "path": "2DVector",
                     "interactions": "",
