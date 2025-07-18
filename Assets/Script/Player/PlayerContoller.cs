@@ -24,6 +24,10 @@ public class PlayerController : MonoBehaviour
         moveInput =  context.ReadValue<Vector2>();
     }
 
+    //점프
+    public void Jump()
+    { }
+
     void HandleMovement()
     {
         Vector3 currentPosition = rb.position;//현재 위치
